@@ -4,7 +4,8 @@ export const Container = Styled.section`
  background:${(props) => props.theme.colors.background};
   color:${(props) => props.theme.colors.text};
   width:100%;
-  height:15vh;
+  height:15vw;
+  min-height: 150px;
   display:flex;
   justify-content:space-around;
   align-items:center;

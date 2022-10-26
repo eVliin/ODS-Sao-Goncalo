@@ -7,10 +7,9 @@ export const GlobalStyle = createGlobalStyle`
   box-sizing:border-box;
   list-style:none;
   font-family: 'Roboto';
-  transition: ease-in 0.5s;
-
 }
 body{
+  transition: ease-in 0.5s;
   background:${(props) => props.theme.colors.background};
   color:${(props) => props.theme.colors.text};
 }
