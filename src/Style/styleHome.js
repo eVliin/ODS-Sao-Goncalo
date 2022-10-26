@@ -2,7 +2,6 @@ import Styled from "styled-components";
 
 export const Container = Styled.section`
  width:100%;
-  height:70vh;
   justify-content:space-evenly;
   align-items:center;
   display:flex;
@@ -14,7 +13,6 @@ export const Box = Styled.div`
   display:flex;
   flex-direction:column;
   width:90%;
-  height:60vh;
 `;
 
 export const Image = Styled.img`

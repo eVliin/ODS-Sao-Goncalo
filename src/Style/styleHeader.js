@@ -12,12 +12,12 @@ padding-top:1em;
 `;
 export const Nav = Styled.nav`
  width:100%;
-  height:15vh;
+  height: 5vw;
 
 `;
 export const Ul = Styled.ul`
  width:100%;
-  height:15vh;
+  height:5vh;
   display:flex;
   justify-content:space-evenly;
   align-items:center;
